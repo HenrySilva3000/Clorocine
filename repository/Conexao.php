@@ -9,7 +9,7 @@ class Conexao{
         $pass = $env["pass"];
         $user = $env["user"];
 
-        if ($databaseType === "mysql") {
+        if ($databaseType === "postgresql") {
             $database = "host=$server;dbname=$database";
         }
 
